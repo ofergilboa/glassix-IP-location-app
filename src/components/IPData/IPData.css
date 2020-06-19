@@ -1,6 +1,6 @@
 .allData {
   display: flex;
-  height: 30vh;
+  height: 25vh;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;

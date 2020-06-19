@@ -8,8 +8,7 @@ const IPData = (props) => {
         <div className='allData'>
             <p className='data'>City: {props.location.city}, Country: {props.location.country}</p>
             <p className='data'>IP: {props.IP}</p>
-            <p className='data'>Coordinates based on IP:</p>
-            <p className='data'>latitude: {props.location.coordinates.latitude}, longitude: {props.location.coordinates.longitude}</p>
+            <p className='data'>Location based on IP:</p>
         </div>
     )
 }
