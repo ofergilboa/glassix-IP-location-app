@@ -17,7 +17,6 @@ function App() {
         coordinates: { latitude: '', longitude: '' }
     })
     const [mapSrcParams, setMapSrcParams] = useState('')
-    const [locationPin, setLocationPin] = useState(true)
 
     useEffect(() => { setData() }, [])
 
@@ -40,7 +39,7 @@ function App() {
     return mapSrcParams ? (
         < div >
             <IPData location={location} IP={IP} />
-            <Map params={mapSrcParams} locationPin={locationPin} />
+            <Map params={mapSrcParams} />
         </div >
     )
         : (
