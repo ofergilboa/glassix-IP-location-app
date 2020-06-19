@@ -9,6 +9,9 @@ heroku:
 "heroku-postbuild": "npm run build"
 },
 
+npm install serve --s
+
+
 local:
 
 "scripts": {
